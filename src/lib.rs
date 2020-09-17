@@ -1,3 +1,5 @@
+extern crate proc_macro;
+use proc_macro::TokenStream;
 
 #[proc_macro_attribute]
 pub fn with_name(_: TokenStream, item: TokenStream) -> TokenStream {
